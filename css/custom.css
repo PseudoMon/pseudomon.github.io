@@ -1,0 +1,96 @@
+h1, h2, h3, h4, h5 {
+    color: #432c0c; text-align: center;
+}
+  
+h1, h2 {font-family: "Rock Salt", cursive; font-weight: bold}
+
+h1 {font-size: 10rem;
+    font-weight: bold;
+    color: #eaca92; }
+    
+.section.column { 
+    float: none;
+    width: 100%; 
+    margin-left: 0; 
+    margin-top: 3rem; }
+    
+.section.column:first-of-type {
+margin-top: 5rem;}
+    
+@media (min-width: 750px) {
+    .section.column {
+        width: 65.3333333333%; 
+        margin-left: 17.3333333333%; }
+}
+    
+h3.section.header {
+    background: #432c0c;
+    height: 2px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    margin: 1.5em auto;
+    }
+h3.section.header:hover {
+    text-decoration: underline; }
+    
+h3.section.header span {
+    background: #f8f3e0;
+    position: relative;
+    top: -0.8em;
+    padding: 0 1.2rem; 
+    font-size: 1em; }
+    
+.section.content {
+    display: none; }
+    
+.section p {
+margin-bottom: 0.5em; }
+
+.section p::first-letter {
+margin-left: 0.7em; }
+    
+h4.section.header {
+    text-align: center; }
+
+h4.section.header span {
+    margin: 0 2rem; }
+
+.postlist {
+    display: none; }
+    
+.postlist h3 {
+    text-align: left; }
+
+.postlist h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 1.2rem;
+    text-align: left; }
+    
+.postlist span {
+    display: block;
+    font-weight: normal; }
+
+.postlist p { font-size: 1.5rem; font-style: italic; color: #7b7163; }
+
+.unchosen {
+    color: #7b7163; }
+    
+#fictionbutton, #reviewbutton {cursor: pointer; }
+
+.otherlinks {
+    text-align: center; 
+    font-family: 'Rock Salt'; 
+    padding-top: 1rem; }
+
+.otherlinks a {
+    margin: 0 1.5rem; }
+    
+footer { box-sizing: border-box; 
+    margin-top: 20px; 
+    border-top: solid 1px #eaca92; 
+    width: 100%; 
+    text-align: center; 
+    padding: 0.5em; 
+    font-size: 0.7em }
