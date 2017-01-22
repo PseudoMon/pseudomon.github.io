@@ -34,12 +34,12 @@
   $(document).ready(function() {
     $('#reviewbutton').click(function() {
         $('#fictionlist').slideUp();
-        $('#reviewlist').slideDown(); 
+        $('#reviewlist, #reviewadd').slideDown(); 
         $('#fictionbutton').addClass('unchosen');
         $(this).removeClass('unchosen');
     });
     $('#fictionbutton').click(function() {
-        $('#reviewlist').slideUp();
+        $('#reviewlist, #reviewadd').slideUp();
         $('#fictionlist').slideDown(); 
         $('#reviewbutton').addClass('unchosen');
         $(this).removeClass('unchosen');
@@ -64,7 +64,7 @@
       
       <div class="section column" style="margin-top: 5rem">
         <h3 class="section header"><span>Who?</span></h3>
-        <div class="section content" style="display: block; padding: 0 1rem">
+        <div class="section content" style="padding: 0 1rem">
             <p>Hello! I'm Aliya, a 19-year-old from Jakarta, Indonesia, still looking for what I'm good for. I dabble around, with interest in linguistics, literature, video game industry, and how absurdly big this world is.</p>
         </div>
       </div>
@@ -73,7 +73,7 @@
         <h3 class="section header"><span>Writings</span></h3>
         <div class="section content">
             <h4 class="section header"><span id="reviewbutton">Reviews</span> <span id="fictionbutton">Fictions</span></h4>
-             <p>Link to other site</p>
+             <p class="postlist" id='reviewadd'>Link to other site</p>
         
             <div class="row postlist" id="reviewlist">
             <div class="one-half column">
@@ -137,6 +137,16 @@
             
             <div class="row postlist" id="fictionlist">
             
+            
+            <h3>Short Stories</h3>
+            
+            <h4><a href="stories/partially-stars">Partially Stars</a></h4>
+            <span>A love story of a sort.</span>
+            <p>He was the most charming person she had ever met. His dark eyes shone with the alacrity of stars. When he smiled, it was a supernova shattering her world and (...)
+            
+            <h4><a href="stories/brambles">Brambles</a></h4>
+            <span>A fight against writer's block</span>
+            <p>"Oh, bloody hell," she said, as she stared at the paper that keep insisted on being being empty. She had his pen out, the same pen her uncle gave her, five years ago, before he was shot a year later, shortly after he told her to write his biography.</p> (...)
             
             
             
