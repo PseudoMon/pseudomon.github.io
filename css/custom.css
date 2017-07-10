@@ -66,7 +66,10 @@ h4.section.header span {
 margin-bottom: 1.5em;}
     
 .postlist h3 {
-    text-align: left; }
+    text-align: left; 
+    margin-top: 1em; }
+    
+.postlist h3:first-of-type { margin-top: 0; }
 
 .postlist h4 {
     font-size: 1.3em;
