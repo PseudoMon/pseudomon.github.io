@@ -2,19 +2,11 @@
 <html lang="en">
 <head>
 
-<!-- HEY! 
-You still need to clean up the mobile version of this page. 
-And then you gotta add the language metadata to all the writing posts.
-And then maybe edit some of the stories (brzz) if you feel up to it. 
-Otherwise, yeah, it's done! -->
-
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>PseudoMon's Homepage</title>
-  <meta name="description" content="
-post['blurb']
-">
+  <meta name="description" content="This is the homepage of Aliya N. Anindita, also known as PseudoMon.">
   <meta name="author" content="Aliya N. Anindita">
 
   <!-- Mobile Specific Metas
@@ -23,51 +15,71 @@ post['blurb']
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">  
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300|Alegreya:500" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="https://pseudomon.github.io/css/normalize.css">
   <link rel="stylesheet" href="https://pseudomon.github.io/css/skeleton.css">
-  <link rel="stylesheet" href="https://pseudomon.github.io/css/pink.css">
+  <link rel="stylesheet" href="https://pseudomon.github.io/css/twopane.css">
 
-   <script src="https://use.fontawesome.com/c2f22c83df.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   
-
 <script>
-
+window.onload = function() {
+  document.getElementById("scrollup").addEventListener('click', () => {
+    window.scrollTo(0, 0);
+  })
+  document.getElementById("scrollup-end").addEventListener('click', () => {
+    window.scrollTo(0, 0);
+  })
+}
 </script>
+
 
 </head>
 <body>
+  
+  <div class="container single">
+    <div class="pane right selfinfo">
+      
+<div class="soc-icons">
+  <a href="https://pseudomon.wordpress.com/"><span class="icon-wordpress"></span></a>
+  <a href="https://twitter.com/PseudoStygian"><span class="icon-twitter"></span></a>
+  <a href="https://pseudomon.github.iocontact.html"><span class="icon-envelop"></span></a>
+</div>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="outer-container" id="home">
-  <nav class="main">
-  
-  <a href="https://pseudomon.github.io">Home</a> //
-  <a href="https://pseudomon.github.io/index2#writings">Writings</a> //
-  <a href="https://pseudomon.github.io/index2#fictions">Fictions</a> //
-  <a href="https://pseudomon.github.io/index2#translations">Translations</a> //
-  <a href="https://pseudomon.github.io/index2#coding">Coding</a>
-  
-  </nav>
-  
-  <header class="main">
-  <div class="sub">you are viewing pseudomon.github.io, home of</div>
-  <h1><img src="https://pseudomon.github.io/images/name1.png"><img src="https://pseudomon.github.io/images/name2.png"></h1>
-  </header>
-  
-    
-  <article class="container text">
+<div class="about-button up"><span id="scrollup" class="icon-chevrons-up"></span></div>
+
+    </div>
+    <div class="pane left">
+      
+<div class="line"></div>
+
+<nav class="row nonhome">
+  <a href="https://pseudomon.github.io"><span class="ic icon-home3"></span>
+    <span class="text">Home</span>
+  </a>
+  <a href="https://pseudomon.github.io/fictions" class="here"><span class="ic icon-book-alt2"></span>
+    <span class="text">Fictions</span>
+  </a>
+  <a href="https://pseudomon.github.io/otherwritings"><span class="ic icon-pencil"></span>
+    <span class="text">Other Writings</span>
+  </a>
+  <a href="https://pseudomon.github.io/translations"><span class="ic icon-earth"></span>
+    <span class="text">Translation</span>
+  </a>
+  <a href="https://pseudomon.github.io/coding"><span class="ic icon-embed2"></span>
+    <span class="text">Coding</span>
+  </a>
+</nav>
+
+<article>
   <header>
-  <div class="date">2017/07/01</div>
-  <h1>June Challenge Stories</h1>
+    <h1>June Challenge Stories</h1>
+    <h5>Aliya N. Anindita</h5>
+    <time>2017/07/01</time>
   </header>
-  
+
   <p><em>On June my writing club made a challenge to write something everyday, each day with its own prompt and occasionally special rules. I managed a couple. None of these are </em>very<em> good, of course&mdash;I wrote them in an hour in the morning, usually&mdash;but they were good exercise.</em></p>
 <p><strong>Day 0: Reminisce</strong><br />
 <a href="http://pseudomon.github.io/stories/prompt-0">A not very good Twine game</a></p>
@@ -230,13 +242,12 @@ Note: Because it&rsquo;s practically impossible to not use the letter &lsquo;o&r
 <p>Heads turned in the hunter&rsquo;s direction, but he smiled easily, and the creatures of the party smiled back, some more in sneers and glares. So, he was a well-known hunter.</p>
 <p>The hunter took to centre-stage quickly, dancing with the banshee and a crystallian and all manners of non-human ladies as if it was nothing. Aleksander almost envied him. He would have danced; more, he would have gone up that stage and sing, but the shadows was swirling in his lung, caressing his desires. He&rsquo;s not one for the crowds. Not anymore.</p>
 <p>Aleksander, he leaned back and stared at his pipe. Maybe a dozen years of this and he&rsquo;d be able to rid his lung of the singing smoke. Or die trying, whichever come first. His life has always been a gamble.</p>
- 
-  </article>
-    
-  </div>
-    
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <p><a id="scrollup-end">Back to top</a></p>
+</article>
+
+    </div>
+  </div>
+  
 </body>
 </html>

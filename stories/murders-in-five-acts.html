@@ -2,19 +2,11 @@
 <html lang="en">
 <head>
 
-<!-- HEY! 
-You still need to clean up the mobile version of this page. 
-And then you gotta add the language metadata to all the writing posts.
-And then maybe edit some of the stories (brzz) if you feel up to it. 
-Otherwise, yeah, it's done! -->
-
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>PseudoMon's Homepage</title>
-  <meta name="description" content="
-post['blurb']
-">
+  <meta name="description" content="This is the homepage of Aliya N. Anindita, also known as PseudoMon.">
   <meta name="author" content="Aliya N. Anindita">
 
   <!-- Mobile Specific Metas
@@ -23,51 +15,71 @@ post['blurb']
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">  
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300|Alegreya:500" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="https://pseudomon.github.io/css/normalize.css">
   <link rel="stylesheet" href="https://pseudomon.github.io/css/skeleton.css">
-  <link rel="stylesheet" href="https://pseudomon.github.io/css/pink.css">
+  <link rel="stylesheet" href="https://pseudomon.github.io/css/twopane.css">
 
-   <script src="https://use.fontawesome.com/c2f22c83df.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   
-
 <script>
-
+window.onload = function() {
+  document.getElementById("scrollup").addEventListener('click', () => {
+    window.scrollTo(0, 0);
+  })
+  document.getElementById("scrollup-end").addEventListener('click', () => {
+    window.scrollTo(0, 0);
+  })
+}
 </script>
+
 
 </head>
 <body>
+  
+  <div class="container single">
+    <div class="pane right selfinfo">
+      
+<div class="soc-icons">
+  <a href="https://pseudomon.wordpress.com/"><span class="icon-wordpress"></span></a>
+  <a href="https://twitter.com/PseudoStygian"><span class="icon-twitter"></span></a>
+  <a href="https://pseudomon.github.iocontact.html"><span class="icon-envelop"></span></a>
+</div>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="outer-container" id="home">
-  <nav class="main">
-  
-  <a href="https://pseudomon.github.io">Home</a> //
-  <a href="https://pseudomon.github.io/index2#writings">Writings</a> //
-  <a href="https://pseudomon.github.io/index2#fictions">Fictions</a> //
-  <a href="https://pseudomon.github.io/index2#translations">Translations</a> //
-  <a href="https://pseudomon.github.io/index2#coding">Coding</a>
-  
-  </nav>
-  
-  <header class="main">
-  <div class="sub">you are viewing pseudomon.github.io, home of</div>
-  <h1><img src="https://pseudomon.github.io/images/name1.png"><img src="https://pseudomon.github.io/images/name2.png"></h1>
-  </header>
-  
-    
-  <article class="container text">
+<div class="about-button up"><span id="scrollup" class="icon-chevrons-up"></span></div>
+
+    </div>
+    <div class="pane left">
+      
+<div class="line"></div>
+
+<nav class="row nonhome">
+  <a href="https://pseudomon.github.io"><span class="ic icon-home3"></span>
+    <span class="text">Home</span>
+  </a>
+  <a href="https://pseudomon.github.io/fictions" class="here"><span class="ic icon-book-alt2"></span>
+    <span class="text">Fictions</span>
+  </a>
+  <a href="https://pseudomon.github.io/otherwritings"><span class="ic icon-pencil"></span>
+    <span class="text">Other Writings</span>
+  </a>
+  <a href="https://pseudomon.github.io/translations"><span class="ic icon-earth"></span>
+    <span class="text">Translation</span>
+  </a>
+  <a href="https://pseudomon.github.io/coding"><span class="ic icon-embed2"></span>
+    <span class="text">Coding</span>
+  </a>
+</nav>
+
+<article>
   <header>
-  <div class="date">2017/11/13</div>
-  <h1>Murders in Five Acts</h1>
+    <h1>Murders in Five Acts</h1>
+    <h5>Aliya N. Anindita</h5>
+    <time>2017/11/13</time>
   </header>
-  
+
   <p>The kid looked small. Timid. He fidgeted in his seat, pushed his big round glasses several times. He didn&rsquo;t look guilty, only scared, nervous. Either he wasn&rsquo;t comfortable with the police (honestly, who is?) Or he knew why he was here. Anyone would be uncomfortable if they knew what the investigation was about, whether they were guilty or not. </p>
 <p>I walked into the room casually, a smile on my face, all meant to instigate that this would over in an hour, nothing to worry about. I sat down in front of him, and put the files on the table, closed. He smiled at me uneasily. </p>
 <p>I was, of course, the first to speak. &ldquo;Alright then, let&rsquo;s just get started. It&rsquo;s Horace, isn&rsquo;t it? I&rsquo;m Detective Brads.&rdquo; Seeing him nodding, I continued. &ldquo;We just want to know where you were on Saturday. Can you tell me about it?&rdquo;</p>
@@ -176,13 +188,12 @@ post['blurb']
 <p>&ldquo;What do you think is more likely? The convoluted triple-drama tragedy, or that there&rsquo;s a serial killer on the loose? Think for yourself, Brads. Think for yourself.&rdquo;</p>
 <hr />
 <p>Comments: The original story is <em>Hamlet</em>, a play by Shakespeare, which is a wild ride of people dying and killing each other. We need a crime thriller based on it, really.</p>
- 
-  </article>
-    
-  </div>
-    
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <p><a id="scrollup-end">Back to top</a></p>
+</article>
+
+    </div>
+  </div>
+  
 </body>
 </html>
