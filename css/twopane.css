@@ -104,6 +104,7 @@ nav a {
 }
 nav.nonhome {
   border-bottom: solid 3px #ff5b5e;
+	padding-bottom: 1em;
 }
 nav.nonhome a {
   margin: 0.2em 0.7em;
@@ -121,6 +122,7 @@ nav.nonhome a .text {
   transition: 0.5s;
   opacity: 0;
   display: block;
+  margin: 0.2em 0;
 }
 nav.nonhome a.here {
   color: #ff9f87;
