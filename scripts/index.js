@@ -17,10 +17,12 @@ window.onload = function () {
       link.addEventListener("mouseover", function () {
         bigIconContainer.style.fontSize = "18vw";
         bigIcon.className = entry.icon;
+				bigIconContainer.style.opacity = "1.0";
       });
 
       link.addEventListener("mouseout", function () {
-        bigIconContainer.style.fontSize = "0";
+        //bigIconContainer.style.fontSize = "0";
+				bigIconContainer.style.opacity = "0.0";
       });
     });
   }
