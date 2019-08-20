@@ -336,6 +336,18 @@ form.contact textarea {
   width: 100%;
   min-height: 6em;
 }
+.infopage a {
+  font-weight: bold;
+  color: inherit;
+}
+.infopage a:hover {
+  color: #ff5b5e
+}
+.infopage .accent {
+  color: inherit;
+  font-weight: bold;
+}
+
 /*
 Icomoon */
 @font-face {
