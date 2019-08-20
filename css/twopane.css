@@ -44,7 +44,7 @@ body a:active {
 }
 .pane.left .big-icon {
   position: absolute;
-  font-size: 0;
+  font-size: 18vw;
   color: #072a31;
   transition: 0.5s;
   bottom: 10vh;
@@ -152,9 +152,8 @@ nav.home {
   margin-top: 25vh;
   margin-left: 2rem;
 }
-nav.home a:hover,
-nav.home:active {
-  font-size: 1.2em;
+nav.home a:hover {
+  font-size: 3.6rem;
   margin-left: 1em;
 }
 @media (max-width: 750px) {
@@ -238,6 +237,18 @@ section.about {
   color: #aea8b0;
   text-align: left;
 }
+@media (min-width: 400px) {
+  section.about {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 750px) {
+  section.about {
+    margin-left: auto;
+  }
+}
+
+
 section.about .accent {
   color: #ff5b5e;
 }
@@ -378,3 +389,4 @@ Icomoon */
 .icon-wordpress:before {
   content: "\eab4";
 }
+

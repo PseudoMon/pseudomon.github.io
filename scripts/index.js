@@ -13,17 +13,21 @@ window.onload = function () {
 
     entries.forEach(function (entry) {
       var link = document.getElementById(entry.id);
-
-      link.addEventListener("mouseover", function () {
-        bigIconContainer.style.fontSize = "18vw";
+	  
+	  function onEntrance() {
         bigIcon.className = entry.icon;
-				bigIconContainer.style.opacity = "1.0";
-      });
+		bigIconContainer.style.opacity = "1.0";
+      };
+	  
+	  function onOut() {
+		bigIconContainer.style.opacity = "0.0";
+      }
+		  
+      link.addEventListener("mouseover", onEntrance );
+	  link.addEventListener("focus", onEntrance );
 
-      link.addEventListener("mouseout", function () {
-        //bigIconContainer.style.fontSize = "0";
-				bigIconContainer.style.opacity = "0.0";
-      });
+      link.addEventListener("mouseout", onOut );
+	  link.addEventListener("blur", onEntrance );
     });
   }
 
