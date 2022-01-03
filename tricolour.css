@@ -97,6 +97,7 @@ Homepage styling
     grid-template-columns:  32% 1fr;
     grid-column-gap:  42px; 
     align-items:  center;
+    padding:  0 1em;
 }
 
 
@@ -118,6 +119,13 @@ Homepage styling
     display:  flex;
     align-items:  center;
     margin-top:  1em;
+}
+
+
+@media (max-width: 720px) {
+    .homepage article .links {
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -158,6 +166,12 @@ Homepage styling
     text-align:  center;
     font-size:  1.8em;
     font-weight:  600;
+}
+
+@media (max-width: 560px) {
+    .homepage nav {
+        grid-template-columns: 1fr;
+    }
 }
 
 .homepage nav > * {
