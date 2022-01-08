@@ -241,14 +241,12 @@ Homepage styling
     font-weight: 600; 
     text-transform: lowercase;
     display:  flex;
+    flex-wrap: wrap;
 }
 
 .sitemap-links > * {
     margin-right: 1em;
-}
-
-.sitemap-links > * {
-    margin-right: 1em;
+    margin-bottom: 0.4em;
 }
 
 .sitemap-links > *::after{
@@ -334,6 +332,10 @@ Homepage styling
     left: 0;
     top: 2em;
     bottom: 1em;
+}
+
+.subindex article section h1 {
+    font-size:  2em;
 }
 
 /* Longsingle (for e.g. stories/article) */
