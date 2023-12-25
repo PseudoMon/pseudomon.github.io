@@ -84,5 +84,26 @@
   </footer>
 
   
+  <script>
+    const shapes = document.querySelector(".geometric").children;
+    let lastMouse = window.innerWidth / 2;
+    let currentMouse = lastMouse;
+    
+    const movementTimer = setInterval(() => {
+      const diff = currentMouse - lastMouse;
+
+      for (let shape of shapes) {
+        const hmm  = diff / window.innerWidth * ((Math.random() * 300) - 150);
+        shape.style.transform = `translateX(${hmm}px)`
+      }
+
+      lastMouse = currentMouse;
+    }, 1000)
+
+    addEventListener('mousemove', (e) => {
+      currentMouse = e.clientX;
+    })
+  </script>
+  
 </body>
 </html>
